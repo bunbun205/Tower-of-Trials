@@ -1,0 +1,316 @@
+.root-container {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.main-title {
+    -unity-font-definition: url("project://database/Assets/Fonts/DUNGRG__.TTF?fileID=12800000&guid=9dccb4e59f6b316bc9afc283d2dbac2f&type=3#DUNGRG__");
+    font-size: 125px;
+    -unity-text-align: middle-center;
+    text-overflow: ellipsis;
+    color: rgb(102, 68, 154);
+    -unity-text-outline-width: 0;
+    -unity-text-outline-color: rgba(0, 0, 0, 0);
+    text-shadow: 3.4px 5.6px 4.7px rgb(0, 0, 0);
+    -unity-font-style: bold;
+}
+
+.subtitle {
+    -unity-font-definition: url("project://database/Assets/Fonts/DUNGRG__.TTF?fileID=12800000&guid=9dccb4e59f6b316bc9afc283d2dbac2f&type=3#DUNGRG__");
+    font-size: 92px;
+    -unity-text-align: middle-center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: rgb(255, 255, 255);
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    -unity-font-style: normal;
+}
+
+.title {
+    -unity-font-definition: url("project://database/Assets/Fonts/DUNGRG__.TTF?fileID=12800000&guid=9dccb4e59f6b316bc9afc283d2dbac2f&type=3#DUNGRG__");
+    font-size: 120px;
+    -unity-text-align: middle-center;
+    text-overflow: ellipsis;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(119, 73, 212);
+    -unity-font-style: bold;
+}
+
+.button {
+    background-image: url("project://database/Assets/Textures/UI/20250421manaSoulButtonB-Sheet.png?fileID=1593388351958662590&guid=566f759204d55fc539ddeb3b905b07bb&type=3#20250421manaSoulButtonB-Sheet_0");
+    width: 432px;
+    height: 99px;
+    background-color: rgba(255, 255, 255, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    font-size: 50px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    -unity-font-definition: url("project://database/Assets/Fonts/DUNGRG__.TTF?fileID=12800000&guid=9dccb4e59f6b316bc9afc283d2dbac2f&type=3#DUNGRG__");
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(254, 254, 254);
+    background-repeat: no-repeat;
+    background-image: url("project://database/Assets/Textures/HomeScreen/Background_0.png?fileID=21300000&guid=afa74a58b87e4b17b97f92c7ed3bcdad&type=3#Background_0");
+    background-size: 100% 100%;
+    background-position-x: left 0;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.98);
+}
+
+.wizard-sprite {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("project://database/Assets/Textures/HomeScreen/Wizard.png?fileID=1457491203435894738&guid=524cfd6ed649f4f9eb00b1a849750416&type=3#Wizard_0");
+    background-size: 200px 200px;
+    background-position-y: bottom 20%;
+    background-position-x: right 15%;
+}
+
+.tower-sprite {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("project://database/Assets/Textures/HomeScreen/tower.png?fileID=6304826840174917774&guid=c0a0136beec6f18e9977184cd279bcdf&type=3#tower_0");
+    background-size: 13% 88%;
+    background-position-x: right 0%;
+    background-position-y: bottom 90%;
+}
+
+.ground-sprite {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-position-y: bottom 0;
+    background-image: url("project://database/Assets/Textures/HomeScreen/ground.png?fileID=-3878557786174838139&guid=a367c8d4947edab4cb98424d5873586a&type=3#ground_0");
+    background-size: 100% 29%;
+}
+
+.close-button {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+    width: 50px;
+    height: 50px;
+    background-size: 100% 100%;
+    background-color: rgba(255, 255, 255, 0);
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+    background-image: url("project://database/Assets/Textures/UI/1-bit_UI_byBatuhanK.png?fileID=3966392815263420760&guid=9699dfdc679cc9392af3b5635d010480&type=3#1-bit_UI_byBatuhanK_2");
+    top: 100px;
+    left: 100px;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.class-grid-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height: 80%;
+    bottom: 0;
+}
+
+.artifacts-grid-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height: 80%;
+}
+
+.skill-class-label {
+    font-size: 60px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    -unity-font-definition: url("project://database/Assets/Fonts/DUNGRG__.TTF?fileID=12800000&guid=9dccb4e59f6b316bc9afc283d2dbac2f&type=3#DUNGRG__");
+    -unity-text-align: middle-left;
+}
+
+.skill-grid-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-self: flex-start;
+    align-content: center;
+}
+
+.skill-button-container {
+    width: 250px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    align-self: center;
+    align-items: center;
+}
+
+.skill-button {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0);
+    background-size: 100% 100%;
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+}
+
+.skill-label {
+    width: 200px;
+    font-size: 30px;
+    color: white;
+    -unity-font-definition: url("project://database/Assets/Fonts/DUNGRG__.TTF?fileID=12800000&guid=9dccb4e59f6b316bc9afc283d2dbac2f&type=3#DUNGRG__");
+    -unity-text-align: middle-left;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.class-grid-item {
+    width: 250px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-self: flex-start;
+    align-items: center;
+    justify-content: center;
+}
+
+.class-icon {
+    background-size: 125px 125px;
+    width: 125px;
+    height: 125px;
+}
+
+.class-button {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url("project://database/Assets/Textures/UI/20250420manaSoul9SlicesB-Sheet.png?fileID=21300000&guid=67c61acbefd49b123a350b3477eb1fa3&type=3#20250420manaSoul9SlicesB-Sheet");
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.class-label {
+    margin-top: 20px;
+    font-size: 50px;
+    -unity-font-definition: url("project://database/Assets/Fonts/DUNGRG__.TTF?fileID=12800000&guid=9dccb4e59f6b316bc9afc283d2dbac2f&type=3#DUNGRG__");
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+}
+
+.slider {
+    -unity-font-definition: url("project://database/Assets/Fonts/DUNGRG__.TTF?fileID=12800000&guid=9dccb4e59f6b316bc9afc283d2dbac2f&type=3#DUNGRG__");
+    font-size: 53px;
+    -unity-text-align: middle-left;
+    width: 100%;
+    height: 60px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.slider .unity-base-slider__tracker {
+    background-image: url('project://database/Assets/Sprites/UI/tinyRPG_manaSoulGUI_v_1_0/20250421barB-Sheet.png?fileID=6098003786803613586&guid=9c813a87dd670583f91c1ea38acfaed0&type=3#20250421barB-Sheet_0');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 50px;
+    margin: 0 40px;
+    position: relative;
+    top: 14px;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    margin-left: 0;
+    margin-right: 0;
+    background-color: rgba(0, 0, 0, 0);
+    -unity-background-scale-mode: stretch-to-fill;
+}
+
+.slider .unity-base-slider__fill {
+    background-color: rgba(153, 233, 255, 0.54);
+    height: 100%;
+    border-radius: 4px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 100%;
+}
+
+.slider .unity-base-slider__dragger {
+    width: 14px;
+    height: 30px;
+    background-color: white;
+    border-radius: 3px;
+    align-self: center;
+    margin-top: -7px;
+    left: 0;
+}
+
+.toggle {
+    -unity-font-definition: url("project://database/Assets/Fonts/DUNGRG__.TTF?fileID=12800000&guid=9dccb4e59f6b316bc9afc283d2dbac2f&type=3#DUNGRG__");
+    font-size: 49px;
+    -unity-text-align: middle-center;
+    flex-wrap: nowrap;
+    width: auto;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+}
+
+.toggle .unity-toggle__checkmark {
+}
+
+.toggle .unity-toggle__input {
+}

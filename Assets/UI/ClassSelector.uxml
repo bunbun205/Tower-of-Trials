@@ -1,0 +1,40 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Main.uss?fileID=7433441132597879392&amp;guid=9fd32bd1a8d04fe6cacf90e2ca17e1f6&amp;type=3#Main" />
+    <ui:VisualElement xmlns:ui="UnityEngine.UIElements" name="ClassSelector" style="position: relative; height: 100%; width: 100%; align-self: center; align-items: center; border-top-width: 0; background-color: rgba(0, 0, 0, 0.92); top: 0; left: 0;">
+        <ui:VisualElement name="Content" style="flex-grow: 1; width: 2395px; padding-top: 100px;">
+            <ui:Label text="Pick your class" class="main-title title" />
+            <ui:VisualElement name="ClassGrid" class="class-grid-container" style="top: 360px; bottom: 108px; height: 40%;">
+                <ui:VisualElement name="Pyromancy" class="class-grid-item">
+                    <ui:Button name="PyromancyButton" class="class-button">
+                        <ui:Image name="PyromancyIcon" class="class-icon" style="background-image: url(&quot;project://database/Assets/Textures/Classes/Classes.png?fileID=8140441768538991821&amp;guid=d66b5e1adfb40d2fea882ef28d8d0239&amp;type=3#Classes_0&quot;);" />
+                    </ui:Button>
+                    <ui:Label text="Pyromancy" class="class-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Electromancy" class="class-grid-item">
+                    <ui:Button name="ElectromancyButton" class="class-button">
+                        <ui:Image name="ElectromancyIcon" class="class-icon" style="background-image: url(&quot;project://database/Assets/Textures/Classes/Classes.png?fileID=-511799931&amp;guid=d66b5e1adfb40d2fea882ef28d8d0239&amp;type=3#Classes_1&quot;);" />
+                    </ui:Button>
+                    <ui:Label text="Electromancy" class="class-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Cryomancy" class="class-grid-item">
+                    <ui:Button name="CryomancyButton" class="class-button">
+                        <ui:Image name="CryomancyIcon" class="class-icon" style="background-image: url(&quot;project://database/Assets/Textures/Classes/Classes.png?fileID=247292408&amp;guid=d66b5e1adfb40d2fea882ef28d8d0239&amp;type=3#Classes_2&quot;);" />
+                    </ui:Button>
+                    <ui:Label text="Cryomancy" class="class-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Druidsm" class="class-grid-item">
+                    <ui:Button name="DruidismButton" class="class-button">
+                        <ui:Image name="DruidismIcon" class="class-icon" style="background-image: url(&quot;project://database/Assets/Textures/Classes/Classes.png?fileID=1423808114&amp;guid=d66b5e1adfb40d2fea882ef28d8d0239&amp;type=3#Classes_3&quot;);" />
+                    </ui:Button>
+                    <ui:Label text="Druidsm" class="class-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="Occultism" class="class-grid-item">
+                    <ui:Button name="OccultismButton" class="class-button">
+                        <ui:Image name="OccultismIcon" class="class-icon" style="background-image: url(&quot;project://database/Assets/Textures/Classes/Classes.png?fileID=-362467469&amp;guid=d66b5e1adfb40d2fea882ef28d8d0239&amp;type=3#Classes_4&quot;);" />
+                    </ui:Button>
+                    <ui:Label text="Occultism" class="class-label" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,9 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Main.uss?fileID=7433441132597879392&amp;guid=9fd32bd1a8d04fe6cacf90e2ca17e1f6&amp;type=3#Main" />
+    <ui:VisualElement xmlns:ui="UnityEngine.UIElements" name="SkillsMenu" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.9);">
+        <ui:VisualElement name="Content" style="flex-grow: 1; padding-top: 200px;">
+            <ui:Label text="Skills" class="title" />
+            <ui:ScrollView name="SkillScroll" elasticity="0.1" touch-scroll-type="Clamped" show-vertical-scroller="false" show-horizontal-scroller="false" vertical-scroller-visibility="Hidden" horizontal-scroller-visibility="Hidden" style="scroll-behaviour: smooth; height: 81%; bottom: 0; left: 0; right: 0; top: auto; width: 85%; align-items: center; align-self: center; justify-content: center; align-content: center;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
